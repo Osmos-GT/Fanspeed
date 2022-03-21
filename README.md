@@ -1,4 +1,4 @@
-#Fanspeed
+# Fanspeed
 
 This small script takes speed control of a PWM1 fan from UEFI/BIOS and sets up new speed value specified in default_speed file. Unlike what SpeedFan utility does, this speed is constant and does not depend on any temperature readings.
 

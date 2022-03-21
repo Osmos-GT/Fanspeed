@@ -10,8 +10,8 @@ To use this script you should have lm-sensors installed and running.
 
 Script options:
 
-default   Set default speed specified in default_speed file
+**default**   Set default speed specified in default_speed file
 
-status    Show current RPM, PWM status and speed value. Also shown when no arguments are given.
+**status**    Show current RPM, PWM status and speed value. Also shown when no arguments are given.
 
-[value]   Set custom speed value which is an integer between 0 and 255.
+**[value]**   Set custom speed value which is an integer between 0 and 255.

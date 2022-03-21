@@ -1,0 +1,9 @@
+[Unit]
+Description=Chassis fan speed script
+Requires=lm-sensors.service
+After=lm-sensors.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/fanspeed default
+[Install]
+WantedBy=multi-user.target
